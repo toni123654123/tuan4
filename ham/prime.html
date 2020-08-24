@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Liệt kê N số nguyên tố</h1>
+<p>Nhập N <input type="number" id="num"></p>
+<input type="button" value="Liệt kê" onclick="isPrime('num')">
+<p id="resl"></p>
+<script>
+    function isPrime(num) {
+        let number = document.getElementById(num).value;
+        let priArr = [2, 3];
+        for (j = 4; priArr.length <= number; j++) {
+            for (i = 2; i < Math.sqrt(j); i++) {
+                if (j % i == 0) {
+                    break;
+                }
+                if (i + 1 > Math.sqrt(j)) priArr.push(j);
+            }
+
+        }
+        let doc = '';
+        for (i = 0; i < priArr.length; i++) {
+            doc += priArr[i] + ',&nbsp';
+        }
+        document.getElementById('resl').innerHTML = doc;
+    }
+</script>
+</body>
+</html>
