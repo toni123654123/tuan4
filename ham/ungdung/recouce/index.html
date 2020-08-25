@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý thông tin</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body onload="renderListStudent()">
+<div class="form-tt">
+    <h3>Thông tin thành viên</h3>
+    <label>Họ và tên</label>
+    <input type="text" id="fullname"/>
+    <span id="fullname-erro" class="erro"></span>
+    <br/>
+    <label>Email</label>
+    <input type="text" id="email"/>
+    <span id="email-erro" class="erro"></span>
+    <br/>
+    <label>Số điện thoại</label>
+    <input type="number" id="phone"/>
+    <span id="phone-erro" class="erro"></span>
+    <br/>
+    <label>giới tính</label>
+    <input type="radio" name="gender" id="male" value="1"/>Nam
+    <input type="radio" name="gender" id="famale" value="2"/>Nữ
+    <span id="gender-erro" class="erro"></span>
+    <br/>
+    <label>&nbsp;</label>
+    <button onclick="save()">Lưu lại</button>
+</div>
+<div class="list-tt" id="list-tt">
+    <h3>Danh sách thành viên</h3>
+    <table id="list-view" border="1px" cellpadding="0px" cellspacing="0" width="650px">
+
+    </table>
+</div>
+
+<script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+<script src="../js/student.js"></script>
+</body>
+</html>

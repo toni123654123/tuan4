@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<h3>Sao và Chòm sao </h3>
+<hr>
+<p>Nhập từ cần tra:</p>
+<label><input type="text" id="search"/></label>
+<button onclick="lookUp()">Tìm kiếm</button>
+<p id="display"></p>
+</body>
+<script>
+    function lookUp() {
+        let word = document.getElementById("search").value;
+        let Star = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        let vConstellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+        let result = "";
+        for (let i = 0; i < Star.length; i++) {
+            if (word === vConstellation[i] ) {
+                result = " Sao: " + Star[i];
+                break;
+            } else if (word === Star[i]) {
+                result = " Chòm sao: " + vConstellation[i];
+                break;
+            } else {
+                result = "Không tìm thấy! ";
+            }
+        }
+        document.getElementById("display").innerHTML = result;
+    }
+</script>
+</html>

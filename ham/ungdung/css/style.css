@@ -1,0 +1,35 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.form-tt, div.list-tt{
+    width: 550px;
+    border: 1px solid #CCCC;
+    margin: 25px;
+    padding: 10px;
+    float: left;
+}
+div.list-tt{
+    width: 650px;
+
+}
+div.form-tt h3{
+    padding: 0px;
+    margin: 0px;
+}
+div.form-tt label{
+    width: 100px;
+    float: left;
+}
+div.form-tt input[type="text"]{
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+div.form-tt button{
+    margin-top: 15px;
+}
+.erro{
+    color: #ff0000;
+}

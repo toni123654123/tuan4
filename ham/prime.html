@@ -10,24 +10,41 @@
 <input type="button" value="Liệt kê" onclick="isPrime('num')">
 <p id="resl"></p>
 <script>
-    function isPrime(num) {
-        let number = document.getElementById(num).value;
-        let priArr = [2, 3];
-        for (j = 4; priArr.length <= number; j++) {
-            for (i = 2; i < Math.sqrt(j); i++) {
-                if (j % i == 0) {
-                    break;
-                }
-                if (i + 1 > Math.sqrt(j)) priArr.push(j);
-            }
-
+    // function isPrime(num) {
+    //     let number = document.getElementById(num).value;
+    //     let priArr = [3];
+    //     for (j = 3; priArr.length <= number; j++) {
+    //         for (i = 2; i < Math.sqrt(j); i++) {
+    //             if (j % i == 0) {
+    //                 break;
+    //             }
+    //             if (i + 1 > Math.sqrt(j)) priArr.push(j);
+    //         }
+    //
+    //     }
+    //     let doc = '';
+    //     for (i = 0; i < priArr.length; i++) {
+    //         doc += priArr[i] + ',&nbsp';
+    //     }
+    //     document.getElementById('resl').innerHTML = doc;
+    // }
+    function isPrime(number) {
+        if (number < 2)
+            return false;
+        else if (number > 2) {
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if(number % i === 0 )
+                    return false;
+            } return true;
         }
-        let doc = '';
-        for (i = 0; i < priArr.length; i++) {
-            doc += priArr[i] + ',&nbsp';
-        }
-        document.getElementById('resl').innerHTML = doc;
     }
+
+    let input = +prompt ("Bạn muốn hiển thị các số nguyên tố nhỏ hơn bao nhiêu?");
+    for (let i = 0; i < input; i++) {
+        if (isPrime(i))
+            document.write(i + " ");
+    }
+
 </script>
 </body>
 </html>
