@@ -97,7 +97,7 @@ function renderListStudent() {
             <td>${student.email}</td>
             <td>${student.phone}</td>
             <td>${gender}</td>
-            <td> <a href="#" onclick="edit" >Sửa</a> | <a href="#" onclick="deleteUser(${index}-1)">Xóa</a> </td>
+            <td> <a href="#" onclick="edit(${index}-1)" >Sửa</a> | <a href="#" onclick="deleteUser(${index}-1)">Xóa</a> </td>
         </tr>`;
     })
     document.getElementById('list-view').innerHTML = table;
@@ -107,11 +107,31 @@ function deleteUser(index) {
 
     let students = localStorage.getItem('student') ? JSON.parse(localStorage.getItem('student')) : [];
 
-    students.splice(index,1);
+    students.splice(index, 1);
 
     localStorage.setItem('student', JSON.stringify(students));
 
     renderListStudent();
+
+}
+
+
+function edit(index) {
+    
+
+    let students = localStorage.getItem('student') ? JSON.parse(localStorage.getItem('student')) : [];
+
+
+    document.getElementById('fullname').value = students[index].fullname;
+    document.getElementById('email').value = students[index].email;
+    document.getElementById('phone').value = students[index].phone;
+    document.getElementById('gender').value = students[index].gender;
+
+    document.getElementById('btn_studen').innerHTML = "Cập nhập";
+
+    // localStorage.setItem('student', JSON.stringify(students));
+    //
+    // renderListStudent();
 
 }
 
