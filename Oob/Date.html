@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    // function printTime() {
+    //     let d = new Date();
+    //     let day = d.getDay();
+    //     let date = d.getDate();
+    //     let month = d.getMonth();
+    //     let year = d.getFullYear();
+    //     let hours = d.getHours();
+    //     let mins = d.getMinutes();
+    //     let secs = d.getSeconds();
+    //     document.body.innerHTML = "thứ: " + day + "  " + date + "/" + month + "/" + year + "<br>"+ hours+":"+mins+":"+secs;
+    // }
+    // setInterval(printTime, 1000);
+
+    let MyDate = function (day, month, year) {
+        this.day = parseInt(day);
+        this.month = parseInt(month);
+        this.year = parseInt(year);
+
+        this.getDay = function () {
+            return this.day;
+        }
+        this.getMonth = function () {
+            return this.month;
+        }
+        this.getYear = function () {
+            return this.year;
+        }
+
+        this.setDay = function (day) {
+            this.day = parseInt(day);
+        }
+
+        this.setMonth = function (month) {
+            this.month = parseInt(month);
+        }
+
+        this.setYear = function (year) {
+            this.year = parseInt(year);
+        }
+
+        this.setDate = function (day, month, year) {
+            this.day = parseInt(day);
+            this.month = parseInt(month);
+            this.year = parseInt(year);
+        }
+
+        this.toString = function () {
+            return this.day + "/" + this.month + "/" + this.year;
+        }
+    }
+    let date = new MyDate(10,5,2020);
+    alert(date.toString());
+</script>
 </body>
 </html>
