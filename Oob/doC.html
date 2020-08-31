@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Temperature Conversion</h3>
+<input type="number" id="inputCelcius" placeholder="Enter Celcius here">
+<button onclick="convertTemp()">Convert</button>
+<br>
+<h3>From C to F: </h3>
+<p id="result1"></p>
+<br>
+<h3>From C to Kelvin: </h3>
+<p id="result2"></p>
+<script>
+     let Temperature = function (convert){
+        this.convertF = function (){
+            return convert * 1.8 +32;
+        }
+        this.convertKenvin = function (){
+            return convert + 273.15;
+        }
+    }
+    function convertTemp(){
+         let TemperatureC = +document.getElementById("inputCelcius").value;
+         if (TemperatureC < -273){
+             alert("vui lòng nhập lại");
+         }else {
+             let temp = new Temperature(TemperatureC);
+             document.getElementById("result1").innerText = temp.convertF();
+             document.getElementById("result2").innerText = temp.convertKenvin();
+         }
+    }
+    // function Temperature(conver){
+    //     this.conver = conver;
+    //
+    // }
+</script>
+</body>
+</html>

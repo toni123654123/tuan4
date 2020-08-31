@@ -1,112 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="ded31395-890e-45e2-98b4-43b5c9f78fd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Oob/Date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oob/tron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1gWexfIRqzaMcx9w92GoxrIZLjN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ded31395-890e-45e2-98b4-43b5c9f78fd8" name="Default Changelist" comment="" />
-      <created>1598235023993</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1598235023993</updated>
-      <workItem from="1598235025086" duration="2659000" />
-      <workItem from="1598256630548" duration="8228000" />
-      <workItem from="1598278101549" duration="12338000" />
-      <workItem from="1598318047414" duration="1726000" />
-      <workItem from="1598319805490" duration="10408000" />
-      <workItem from="1598337405088" duration="8264000" />
-      <workItem from="1598365868917" duration="1810000" />
-      <workItem from="1598403741858" duration="1552000" />
-      <workItem from="1598405703426" duration="557000" />
-      <workItem from="1598431620439" duration="1815000" />
-      <workItem from="1598452302556" duration="1921000" />
-      <workItem from="1598490386925" duration="303000" />
-      <workItem from="1598491765551" duration="581000" />
-      <workItem from="1598494454306" duration="1449000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1014" height="640" key="dock-window-1" timestamp="1598281189983">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="1014" height="640" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1598281189983" />
-    <state x="535" y="155" key="run.anything.popup" timestamp="1598264637357">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="535" y="155" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598264637357" />
-    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598339123904">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1598339123904" />
-  </component>
-</project>
+nt\":2}");
+user_pref("browser.urlbar.placeholderName", "Google");
+user_pref("browser.urlbar.tipShownCount.searchTip_onboard", 2);
+user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
+user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime", "1596591910708");
+user_pref("distribution.iniFile.exists.appversion", "79.0");
+user_pref("distribution.iniFile.exists.value", false);
+user_pref("doh-rollout.balrog-migration-done", true);
+user_pref("dom.push.userAgentID", "e6b8e8a76d444d3183f51d55cf22019e");
+user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
+user_pref("extensions.blocklist.pingCountVersion", 0);
+user_pref("extensions.databaseSchema", 32);
+user_pref("extensions.getAddons.cache.lastUpdate", 1597750769);
+user_pref("extensions.getAddons.databaseSchema", 6);
+user_pref("extensions.incognito.migrated", true);
+user_pref("extensions.lastAppBuildId", "20200720193547");
+user_pref("extensions.lastAppVersion", "79.0");
+user_pref("extensions.lastPlatformVersion", "79.0");
+user_pref("extensions.pendingOperations", false);
+user_pref("extensions.systemAddonSet", "{\"schema\":1,\"addons\":{}}");
+user_pref("extensions.webcompat.perform_injections", true);
+user_pref("extensions.webcompat.perform_ua_overrides", true);
+user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.doh-rollout@mozilla.org", true);
+user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.screenshots@mozilla.org", true);
+user_pref("extensions.webextensions.uuids", "{\"doh-rollout@mozilla.org\":\"f08d278f-1260-497f-9d33-4e15949fe127\",\"formautofill@mozilla.org\":\"1be81ef2-ca01-4dfa-8044-65f6daf67a69\",\"screenshots@mozilla.org\":\"ead157a0-c72e-48ca-8987-3496b90c4730\",\"webcompat-reporter@mozilla.org\":\"02c28c9b-c714-41f6-9e1d-0448d51a2d62\",\"webcompat@mozilla.org\":\"c5744409-e425-42a0-89f0-f88815ae16d2\",\"default-theme@mozilla.org\":\"256f3fbd-c258-45a9-a287-c5e15572a968\",\"google@search.mozilla.org\":\"becb99e7-eedf-4de4-852d-9a9147cff3e8\",\"wikipedia@search.mozilla.org\":\"5c6da7db-af5e-4379-a90c-9c2cf57aa5e9\",\"coccoc@search.mozilla.org\":\"5d64a361-be9f-4496-a4b9-5da92dcb85a1\",\"ddg@search.mozilla.org\":\"5cb02647-203b-4492-9c2d-e7c3999fd49c\"}");
+user_pref("gfx.crash-guard.d3d11layers.appVersion", "79.0");
+user_pref("gfx.crash-guard.d3d11layers.deviceID", "0x0166");
+user_pref("gfx.crash-guard.d3d11layers.driverVersion", "10.18.10.5129");
+user_pref("gfx.crash-guard.d3d11layers.feature-d2d", true);
+user_pref("gfx.crash-guard.d3d11layers.feature-d3d11", true);
+user_pref("gfx.crash-guard.status.d3d11layers", 2);
+user_pref("layers.mlgpu.sanity-test-failed", false);
+user_pref("media.gmp-gmpopenh264.abi", "x86_64-msvc-x64");
+user_pref("media.gmp-gmpopenh264.lastUpdate", 1597638278);
+user_pref("media.gmp-gmpopenh264.version", "1.8.1.1");
+user_pref("media.gmp-manager.buildID", "20200720193547");
+user_pref("media.gmp-manager.lastCheck", 1597750201);
+user_pref("media.gmp-widevinecdm.abi", "x86_64-msvc-x64");
+user_pref("media.gmp-widevinecdm.lastUpdate", 1597638292);
+user_pref("media.gmp-widevinecdm.version", "4.10.1582.2");
+user_pref("media.gmp.storage.version.observed", 1);
+user_pref("media.hardware-video-decoding.failed", false);
+user_pref("pdfjs.enabledCache.state", true);
+user_pref("pdfjs.migrationVersion", 2);
+user_pref("places.history.expiration.transient_current_max_pages", 112348);
+user_pref("privacy.sanitize.pending", "[]");
+user_pref("sanity-test.advanced-layers", true);
+user_pref("sanity-test.device-id", "0x0166");
+user_pref("sanity-test.driver-version", "10.18.10.5129");
+user_pref("sanity-test.running", false);
+user_pref("sanity-test.version", "20200720193547");
+user_pref("sanity-test.webrender.force-disabled", false);
+user_pref("security.remote_settings.crlite_filters.checked", 1597750202);
+user_pref("security.remote_settings.intermediates.checked", 1597750202);
+user_pref("security.sandbox.content.tempDirSuffix", "{bbc4a357-55b0-4064-b877-6899380f8232}");
+user_pref("security.sandbox.plugin.tempDirSuffix", "{8a2cf5bd-ae42-4018-8293-c9569ff06b48}");
+user_pref("services.blocklist.addons.checked", 1598366663);
+user_pref("services.blocklist.gfx.checked", 1597750202);
+user_pref("services.blocklist.pinning.checked", 1597750202);
+user_pref("services.blocklist.plugins.checked", 1597750202);
+user_pref("services.settings.clock_skew_seconds", 0);
+user_pref("services.settings.last_etag", "\"1597694075608\"");
+user_pref("services.settings.last_update_seconds", 1598366663);
+user_pref("services.settings.main.anti-tracking-url-decoration.last_check", 1597750202);
+user_pref("services.settings.main.cfr-fxa.last_check", 1597750202);
+user_pref("services.settings.main.cfr.last_check", 1598366663);
+user_pref("services.settings.main.fxmonitor-breaches.last_check", 1598366663);
+user_pref("services.settings.main.hijack-blocklists.last_check", 1597750202);
+user_pref("services.settings.main.language-dictionaries.last_check", 1597750202);
+user_pref("services.settings.main.message-groups.last_check", 1598366663);
+user_pref("services.settings.main.messaging-experiments.last_check", 1598366663);
+user_pref("services.settings.main.normandy-recipes-capabilities.last_check", 1598366663);
+user_pref("services.settings.main.pioneer-study-addons.last_check", 1598366663);
+user_pref("services.settings.main.public-suffix-list.last_check", 1597750202);
+user_pref("services.settings.main.search-config.last_check", 1598366663);
+user_pref("services.settings.main.search-default-override-allowlist.last_check", 1598366663);
+user_pref("services.settings.main.sites-classification.last_check", 1597750202);
+user_pref("services.settings.main.url-classifier-skip-urls.last_check", 1597750202);
+user_pref("services.settings.main.whats-new-panel.last_check", 1598366663);
+user_pref("services.settings.security.onecrl.checked", 1597750202);
+user_pref("toolkit.startup.last_success", 1598366652);
+user_pref("toolkit.telemetry.cachedClientID", "80ced9f2-f17b-4bb4-8b3d-ba98ff00c8fc");
+user_pref("toolkit.telemetry.p

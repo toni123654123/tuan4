@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="Rectangle" style="border:1px solid #000000;"></canvas>
+<script>
+    function Rectangle(width, height, id){
+        document.getElementById(id).width = width;
+        document.getElementById(id).height =height;
+        this.width = width;
+        this.height = height;
+    }
+
+
+    Rectangle.prototype.area =function(){
+        return this.width * this.height;
+    }
+
+    let rectangle= new Rectangle(100, 50, 'Rectangle');
+    alert(rectangle.area());
+</script>
+
+</body>
+</html>

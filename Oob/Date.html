@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    // function printTime() {
-    //     let d = new Date();
-    //     let day = d.getDay();
-    //     let date = d.getDate();
-    //     let month = d.getMonth();
-    //     let year = d.getFullYear();
-    //     let hours = d.getHours();
-    //     let mins = d.getMinutes();
-    //     let secs = d.getSeconds();
-    //     document.body.innerHTML = "thứ: " + day + "  " + date + "/" + month + "/" + year + "<br>"+ hours+":"+mins+":"+secs;
-    // }
-    // setInterval(printTime, 1000);
+    function printTime() {
+        let d = new Date();
+        let day = d.getDay();
+        let date = d.getDate();
+        let month = d.getMonth();
+        let year = d.getFullYear();
+        let hours = d.getHours();
+        let mins = d.getMinutes();
+        let secs = d.getSeconds();
+        document.body.innerHTML = "thứ: " + day + "  " + date + "/" + month + "/" + year + "<br>"+ hours+":"+mins+":"+secs;
+    }
+    setInterval(printTime, 1000);
 
     let MyDate = function (day, month, year) {
         this.day = parseInt(day);
